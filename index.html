@@ -5,13 +5,22 @@
     <title>Finn's Journal</title>
     <meta charset="UTF-8">
     <link rel=icon href=favicon.png type="image/png">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet"> 
+    <link rel=stylesheet href="index.css">
+    <style>
+        h1 {
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+    </style>
     </head>
 
     <body>
         <header>
             <h1>Finn's Journal</h1>
         </header>
-        <nav>
+        <nav id="nav">
             <ol>
                 <li><a href="#journal-entry-1">Entry 1 - 4/09/2021</a></li>
                 <li><a href="#journal-entry-2">Entry 2 - 4/10/2021</a></li>
@@ -22,38 +31,53 @@
         </nav>
         <main>
             <section>
-                <div id="journal-entry-3">
+                <div class="journal-entry" id="journal-entry-3">
                     <span></span>
-                    <h2>Entry 3</h2>
-                    <h3>4/11/2021</h3>
-                    <p>
-                        I got up early today to try to crank out a bunch of work before this week starts. I've been reading <i>Deep Work by <em>Cal Newport</em></i> recently and am trying to build some 'deep work' sessions into my morning. It's only 9:30am now so all I've done is a few assigments, but I plan on basically staying in and finishing stuff up for the whole day.
-                        <br><br>
+                    <div>
+                        <h2>Entry 3</h2>
+                        <h3>4/11/2021</h3>
+                    </div>
+                    <div>
+                        <p>
+                            I got up early today to try to crank out a bunch of work before this week starts. I've been reading <i>Deep Work by <em>Cal Newport</em></i> recently and am trying to build some 'deep work' sessions into my morning. It's only 9:30am now so all I've done is a few assigments, but I plan on basically staying in and finishing stuff up for the whole day.
+                            <br><br>
+                            
+                        </p>
+                    </div>
+                    <div> 
                         <img src="deep-work.jpeg" alt="Deep Work by Cal Newport" width="200">
-                    </p>
+                    </div>
+                    
                 </div>
             </section>
 
             <hr>
 
             <section>
-                <div id="journal-entry-2">
-                    <h2>Entry 2</h2>
+                <div class="journal-entry" id="journal-entry-2">
+                    <div>
+                        <h2>Entry 2</h2>
                     <h3>4/10/2021</h3>
-                    <p>
-                        I took today off from doing any school work. I watched some YouTube videos in the morning, then played some lacrosse on the field for a few hours. I went for a drive along the coast and picked up dinner on the way home, then watched 2 episodes of Narcos (the only show I never skip the intro for because the theme song is good).
-                        <br><br>
+                    </div>
+                    <div>
+                        <p>
+                            I took today off from doing any school work. I watched some YouTube videos in the morning, then played some lacrosse on the field for a few hours. I went for a drive along the coast and picked up dinner on the way home, then watched 2 episodes of Narcos (the only show I never skip the intro for because the theme song is good).
+                            <br><br>
+                            
+                        </p>
+                    </div>
+                    <div>
                         <audio controls>
                             <source src="narcos.mp3" type="audio/mp3">
                         </audio>
-                    </p>
+                    </div>
                 </div>
             </section>
             
             <hr>
 
             <section>
-                <div id="journal-entry-1">
+                <div class="journal-entry" id="journal-entry-1">
                     <h2>Entry 1</h2>
                     <h3>4/09/2021</h3>
                     <p>

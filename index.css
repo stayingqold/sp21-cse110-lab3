@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Zen+Dots&display=swap');
+
+/* add font family */
+* {
+    font-family: 'Roboto','Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/* add background color */
+body {
+    background-color: grey;
+}
+
+p, h3 {
+    color: rgb(192,192,192);
+    display: inline-block;
+}
+
+h1 {
+    color: #2F4F4F;
+    text-align: center;
+    text-decoration: line-through;
+    position: relative;
+}
+
+#nav {
+    color: hsl(108, 36%, 63%);
+    margin-left: 130px;
+    margin-right: 5pc;
+    margin-top: 10pt;
+}
+
+.journal-entry {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 10em;
+    margin-right: 10rem;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-style: double;
+    border-color: white;
+    border-width: 10px;
+    border-radius: 10px;
+    display: block;
+    height: auto;
+    width: auto;
+    max-width: 750px;
+    min-width: 500px;
+}
+
+#contact-me {
+    margin: 1% 10em 1% 10rem;
+    padding: 1% 1% 1% 1%;
+}  
+
+footer {
+    margin: auto;
+    position: absolute;
+}
+
+button:hover {
+    color:blue;
+}
+
+button:active {
+    color: red;
+}
+
+#journal-entry-3 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items:flex-start
+}
+
+#journal-entry-2 {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: stretch;
+}
+
+
+@media only screen and (orientation: landscape) {
+    body {
+      background-color: lightblue;
+      font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+[class*="journal"] {
+    background-color: #2F4F4F;
+}
+
+ol > li {
+    font-weight: bold;
+}
+
+img ~ #journal-entry-3 {
+    margin-left: red;
+}
+
+
+div + p {
+    font-weight: bold;
+}
+
+p.journal-entry-2 {
+    font-weight: lighter;
+}
+
+
+
+
+
+
