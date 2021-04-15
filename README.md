@@ -1,1 +1,1 @@
-https://github.com/stayingqold/sp21-cse110-lab3
+https://stayingqold.github.io/sp21-cse110-lab3/
